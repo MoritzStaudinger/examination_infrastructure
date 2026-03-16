@@ -1,0 +1,38 @@
+date: Date of observation day in DD.MM.YYYY format (day first, month second, four digit year). 
+airPressure_7h: Air pressure at 07h in hecto Pascal [hPa]. 
+airPressure_14h: Air pressure at 14h (2 pm) in hecto Pascal [hPa]. 
+airPressure_19h: Air pressure at 19h (7 pm) in hecto Pascal [hPa]. 
+skyCover_7h: Sky cover (amount of opaque clouds covering the sky) at 07h on a scale from [1..10], where 10 is full coverage. 
+skyCover_14h: Sky cover (amount of opaque clouds covering the sky) at 14h (2 pm) on a scale from [1..10], where 10 is full coverage. 
+skyCover_19h: Sky cover (amount of opaque clouds covering the sky) at 19h (7 pm) on a scale from [1..10], where 10 is full coverage. 
+temp_7h: Air temperature at 07h in degree Celsius [°C]. 
+temp_14h: Air temperature at 14h (2 pm) in degree Celsius [°C]. 
+temp_19h: Air temperature at 19h (7 pm) in degree Celsius [°C]. 
+hum_7h: Humidity at 07h in percent [%]. 
+hum_14h: Humidity at 14h (2 pm) in percent [%]. 
+hum_19h: Humidity at 19h (7 pm) in percent [%]. 
+windDir_7h: Direction of wind at 07h in compass directions. 
+windBeauf_7h: Strength of wind at 07h in Beaufort scale. 
+windDir_14h: Direction of wind at 14h (2 pm) in compass directions. 
+windBeauf_14h: Strength of wind at 14h (2 pm) in Beaufort scale. 
+windDir_19h: Direction of wind at 19h (7 pm) in compass directions. 
+windBeauf_19h: Strength of wind at 19h (7 pm) in Beaufort scale. 
+precip: Daily precipitation in millimeters [mm]. "traces" indicates a precipitation < 0.1mm 
+precipType: Precipitation type. 
+
+Beaufort scale: 
+Beaufort 	 km/h 	 Description	
+0 	 <1 	 Calm	
+1 	 1 - 5 	 Light air	
+2 	 6 - 11 	 Light breeze	
+3 	 12 - 19 	 Gentle breeze	
+4 	 20 - 28 	 Moderate breeze	
+5 	 29 - 38 	 Fresh breeze	
+6 	 39 - 49 	 Strong breeze	
+7 	 50 - 61 	 High wind, moderate gale, near gale	
+8 	 62 - 74 	 Gale, fresh gale	
+9 	 75 - 88 	 Strong/severe gale	
+10 	 89 - 102 	 Storm, whole gale	
+11 	 103 - 117 	 Violent storm	
+12 	 > 117 	 Hurricane 
+ 
