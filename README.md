@@ -39,7 +39,7 @@ The course targets master's students in Data Science with heterogeneous programm
 │  (lab workstation) │         │  Controller (whitelist)  │
 └────────────────────┘         └────────────┬────────────┘
                                             │ Whitelisted IPs only
-                                                                         ▼
+                                            ▼
                                 ┌─────────────────────────┐
                                 │   Examination Server     │
                                 │   (JupyterHub on K8s)    │
